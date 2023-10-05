@@ -1,0 +1,12 @@
+mongoRootUsername: "your-username"
+mongoRootPassword: "your-password"
+replicaCount: 1
+limits:
+  memory: 512Mi
+  cpu: "1"
+requests:
+  memory: 256Mi
+  cpu: "0.2"
+database_url: mongodb-service
+service:
+  type: LoadBalancer
