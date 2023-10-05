@@ -51,12 +51,5 @@ To install this Helm chart, follow these steps:
    Password: pass
    ```
 
-5.  Cleanup
-   To uninstall the Helm release and delete all associated resources, use the following command:
-   Cleanup
-    ```bash
-    helm uninstall dev-stage-mongo-express-service
-    ```
-
 Contributing
 Contributions to this project are welcome! Please read our contribution guidelines for more information on how to get started.
